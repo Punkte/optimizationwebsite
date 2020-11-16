@@ -2,17 +2,12 @@
   "routes": [
     {
       "src": "/assets/images/(.*)",
-      "headers": {
-        "cache-control": "max-age=0, s-maxage=86400, public"
-      },
+      "headers": { "cache-control": "s-maxage=604800" },
       "dest": "/images/$1"
     },
     {
       "src": "/assets/(.*).(js|css)",
-      "headers": {
-        "Accept-Encoding": "gzip",
-        "cache-control": "max-age=0, s-maxage=86400, public"
-      },
+      "headers": { "Accept-Encoding": "gzip", "cache-control": "s-maxage=604800"  },
       "dest": "/assets/$1"
     }
   ]
