@@ -4,6 +4,11 @@
       "src": "/assets/images/(.*)",
       "headers": { "cache-control": "s-maxage=604800" },
       "dest": "/images/$1"
+    },
+    {
+      "src": "/assets/(.*).(js|css)",
+      "headers": { "Accept-Encoding": "gzip", "cache-control": "s-maxage=604800" },
+      "dest": "/assets/$1"
     }
   ]
 }
