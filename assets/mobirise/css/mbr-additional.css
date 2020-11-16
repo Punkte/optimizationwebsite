@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Muli:300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Muli:300,400&display=swap&display=swap);
 
 
 
@@ -1270,7 +1270,7 @@ blockquote {
 .cid-rGu1lE6miU {
   padding-top: 180px;
   padding-bottom: 180px;
-  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+  background-image: url("../../../assets/images/mbr-1920x1280-2.jpg");
 }
 @media (max-width: 767px) {
   .cid-rGu1lE6miU {
