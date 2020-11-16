@@ -3,9 +3,7 @@
     {
       "src": "/assets/images/(.*)",
       "headers": {
-        "Accept-Encoding": "gzip",
-        "cache-control": "s-maxage=604800",
-        "ExpiresDefault": "access plus 7200 seconds"
+        "cache-control": "max-age=0, s-maxage=86400, public"
       },
       "dest": "/images/$1"
     },
@@ -13,8 +11,7 @@
       "src": "/assets/(.*).(js|css)",
       "headers": {
         "Accept-Encoding": "gzip",
-        "cache-control": "s-maxage=604800",
-        "ExpiresDefault": "access plus 7200 seconds"
+        "cache-control": "max-age=0, s-maxage=86400, public"
       },
       "dest": "/assets/$1"
     }
